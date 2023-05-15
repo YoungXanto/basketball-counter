@@ -1,0 +1,58 @@
+@font-face{
+    font-family: myFont_Numbers;
+    src: url(DS-DIGI.TTF)
+}
+
+@font-face{
+    font-family: myFont_HomeGuest;
+    src: url(LEMONMILK-Bold.otf)
+}
+
+body {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #111827;
+}
+
+.container {
+    margin: 30px auto;
+    background-color: #253557;
+    display: flex;
+    width: 550px;
+    height: 350px;
+    padding-bottom: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    box-shadow: 5px 5px 50px black;
+}
+
+h3 {
+    font-family: myFont_HomeGuest;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+
+h4 {
+    font-family: myFont_Numbers;
+    background-color: black;
+    font-size: 100px;
+    color: #881337;
+    width: 155px;
+    height: 120px;
+    margin: 15px;
+}
+
+button {
+    font-family: myFont_Numbers;
+    color: #9AABD8;
+    width: 40px;
+    height: 40px;
+    background-color: #111827;
+    border: 2px #9AABD8 solid;
+    border-radius: 5px;
+}
